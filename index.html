@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google</title>
+		<style> 
+			img {
+				margin: 20px 200px 0 400px;
+				padding: 0;
+				height: 260px;
+				width: 450px;
+			}
+			input {
+				position: center;
+				margin: 0 0 0 400px;
+				border-radius: 7px;
+				height: 35px;
+				width: 300px;
+				padding: 0 10px 0 10px;
+				font-size: 18px;
+			}
+			button {
+				height: 40px;
+				border-radius: 7px;
+			}
+			p {
+				margin: 20px 0 0 440px;
+			}
+			.about {
+				margin: 0 0 0 20px;
+			}
+			.store {
+				margin: -19px 0 0 90px;
+			}
+			.gmail {
+				margin: -19px 0 0 1030px;
+			}
+
+			.images {
+				margin: -19px 0 0 1100px;
+			}
+			a {
+				font-family: arial;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<p class='about'><a href='https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header'>About</a></p>
+		<p class='store'><a href='https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB'>Store</a></p>
+		<p class='gmail'><a href='https://mail.google.com/mail/'>Gmail</a></p>
+		<p class='images'><a href='https://www.google.co.uk/imghp?hl=en&tab=wi&authuser=0&ogbl'>Images</a></p>
+		<img alt='Google' height='92' id='hplogo' src='https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg'>
+		<!-- Update this and integrate!!!! <form action="https://google.com/search">
+			<input type="text" name="q">
+			<button>Submit</button>
+		</form> -->
+		<input type='text'>
+		<!--<a href='./search.html'><button>Search</button></a>
+		<a href='./unlucky.html'><button class='lucky'>I'm Feeling Lucky</button></a><br><br>-->
+		<a href='https://www.google.com/search?q=Penelope+Jungreis&source=lmns&bih=578&biw=1229&hl=en&ved=2ahUKEwj-8o_yqb3pAhVBrhoKHRxVBgYQ_AUoAHoECAEQAA'><button>Search</button></a>
+		<a href='https://www.google.com/search?bih=578&biw=1229&hl=en&sxsrf=ALeKk029_yvJASX7dpqOcRcmqanJg_p2HA%3A1589802073870&ei=WXTCXq3dNI7BgQbjgYj4Cg&q=You%27re+not+lucky&oq=You%27re+not+lucky&gs_lcp=CgZwc3ktYWIQAzIECCMQJzICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgUIABCDAToECAAQQzoHCAAQgwEQQzoFCAAQkQI6CAgAEJECEIsDOgcIABBDEIsDOgUIABCLAzoJCAAQChBDEIsDOggIABCDARCLAzoICAAQFhAKEB5QqClYgUFg31VoAHAAeACAAdQBiAHSCpIBBjExLjQuMZgBAKABAaoBB2d3cy13aXq4AQI&sclient=psy-ab&ved=0ahUKEwjt7YCfqr3pAhWOYMAKHeMAAq8Q4dUDCAw&uact=5'><button class='lucky'>I'm Feeling Lucky</button></a><br><br>
+		<p><a href='https://apps.google.com/meet/?utm_source=google&utm_medium=et&utm_content=&utm_campaign=FY20-Q2-global-hpp-search-meet-desktop' target='_blank'>Google's premium video meetings are now free for everyone</a></p>
+		<script>
+			$('.lucky').click(function() {
+			showAlert('Are you sure?');
+			});
+		</script>
+	</body>
+</html>
